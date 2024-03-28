@@ -1,0 +1,40 @@
+footer{
+    background-color: black;
+    grid-column: 1/4;
+    grid-row: 1/ span;
+    display: flex;
+}  
+.contato{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+
+}
+.nossoTime{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.nossoTime img{
+    width: 150px;
+    border-radius: 400px;
+    display: grid;
+}
+#fotoLuan{
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+#fotoJoao{
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+#fotoFelipe{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+#fotoPedro{
+    grid-column: 2/2;
+    grid: 2/2;
+}

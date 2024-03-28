@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: #00ff00;
+    border-bottom: none;
+}
+.containerLayout{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 500px;
+}
+.formatacaoCards{
+    display: flex;
+    justify-content: space-around
+}
+.cards{
+    display: flex;
+    flex-direction: column;/*direcao do conteudo em coluna*/
+    justify-content: center;/*alinhamento de tudo dentro do container div*/
+    text-align: center;/*alinhamento do texto*/
+    align-items: center;/*alinhamento da imagem*/
+    color: #00ff00;
+    border: 7px solid #00ff00;
+    width: 260px;
+    height: 460px;
+    padding: 20px 45px;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.cards img{
+    width: 50px;
+    display: flex;
+}
